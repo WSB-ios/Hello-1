@@ -1,142 +1,44 @@
 <!DOCTYPE html>
 <html>
-	<head>
-		<meta name="viewport" content="width=device-width, initial-scale=1.0">
-		<meta charset="{CHARSET}">
-		<title>第一个网站</title>
-		<style type="text/css">
-			*{
-				padding: 0;
-				margin: 0;
-				font-family: "微软雅黑";
-				font-size: 12px;
-				color: #fff;
-				
-			}
-			@media screen and (min-width: 425px){
-				.nav{ 
-					height:150px;
-				}
-				.advertisement{
-					height:300px;
-				}
-				.content{
-					height:200px;
-				}
-			
-			}
-			a{text-decoration:none;}
-			/*导航*/
-			.nav{
-				width: 100%;
-				height: 58px;
-				background: #2f2f2f;
-				float: left;
-				margin-bottom: 6px;
-				clear: both;
-			}
-			.nav_logo{
-				font-size: 26px;
-				float: left;
-				margin-top: 11px;
-				margin-left: 27px;
-			}
-			.nav_left{
-				float: left;
-				display: block;
-				background: red;
-				text-align: center;
-				margin-top: 23px;
-				margin-left: 33px;
-				
-			}
-			.nav_left a{
-				margin-left: 18px;
-			}
-			.nav_right{
-				clear:none;
-			}
-			.nav_right {
-				float: right;
-			}
-			.nav_right a{
-				width: 36px;
-				height: 21px;
-				background: red;
-				display: block;
-				text-align: center;
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta charset="utf-8"> 
+<title>菜鸟教程(runoob.com)</title> 
+<style>
+.wrapper {overflow:auto;}
+#main {margin-left: px;}
+#leftsidebar {float: none;width: auto;}
+#menulist {margin:0;padding:0;}
+.menuitem {
+    background:#CDF0F6;
+    border:1px solid #d4d4d4;
+    border-radius:4px;
+    list-style-type:none;
+    margin:5px;
+    padding:2px;
+}
+@media screen and (min-width: 480px) {
+    #leftsidebar {width:200px;float:left;}
+    #main {margin-left:216px;}  
+}
+</style>
+</head>
+<body>
+<div class="wrapper">
+  <div id="leftsidebar">
+    <ul id="menulist">
+      <li class="menuitem">Menu-item 1</li>
+      <li class="menuitem">Menu-item 2</li>
+      <li class="menuitem">Menu-item 3</li>
+      <li class="menuitem">Menu-item 4</li>
+      <li class="menuitem">Menu-item 5</li>
+   </ul>
+  </div>
+  <div id="main">
+    <h1>重置浏览器窗口查看效果！</h1>
+    <p>在屏幕可视窗口尺寸大于 480 像素时将菜单浮动到页面左侧。</p>
+  </div>
+</div>
 
-			}
-			/*广告*/
-			.advertisement{
-				width: 100%;
-				height: 292px;
-				background: red;
-				float: left;
-				clear: both;
-				margin-bottom: 7px;
-			}
-			.advertisement div{
-				width: 100%;
-				height: 292px;
-			}
-			.advertisement img{
-				height: 292px;
-				width: 331px;
-				margin-left: 2px;
-			}
-			.content{
-				width: 100%;
-				height: 281px;
-				background: red;
-				clear: both;
-			}
-			.content_center{
-				 width: 800px;
-				 height: 281px;
-				 background:#2f2f2f;
-				 margin: auto;
-				 
-			}
-			/*底部*/
-		</style>
-		
-	</head>
-	<body>
-		<!--导航-->
-		<div class="nav">
-			<a href="#" class="nav_logo">LOGO</a>
-			<div class="nav_left">
-				<a href="#">首页</a>
-				<a href="#">首页</a>
-				<a href="#">首页</a>
-				<a href="#">首页</a>
-				<a href="#">首页</a>
-				<a href="#">首页</a>
-			</div>
-			<div class="nav_right">
-				<a href="#" style="background: none;">登入</a>
-				<a class="nav_register" href="#">注册</a>
-			</div>
-		</div>
-		<!--广告-->
-		<div class="advertisement">
-			<div>
-			<a href="#"><img src="404.jpg"></a>
-			<a href="#"><img src="404.jpg"></a>
-			<a href="#"><img src="404.jpg"></a>
-			<a href="#"><img src="404.jpg"></a>
-			</div>
-		</div>
-			<!--内容-->
-		<div class="content">
-			<div class="content_center">
-				
-			</div>
-		</div>
-		<!--底部-->
-		<div class="bottom">
-			
-		</div>
-	</body>
+</body>
 </html>
