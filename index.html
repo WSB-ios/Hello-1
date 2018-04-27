@@ -1,61 +1,45 @@
 <!DOCTYPE html>
 <html>
 <head>
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
 <meta charset="utf-8"> 
 <title>菜鸟教程(runoob.com)</title> 
-	<style>
-		*{
-			padding: 0;
-			margin: 0;
-		}
-		#top{
-			width: 100%;
-			height: 57px;
-			background: #000;
-		}
-		#nav{
-			width: 100%;
-			height: 57px;
-			background: #000;
-			margin-top: 5px;
-			margin-bottom: 5px;
-		}
-		#content{
-			width: 1000px;
-			height: 800px;
-			background: #000;
-			top: 5px;
-			margin: auto;
-		}
-	@media screen and (min-width: 480px){
-		#top{
-			height: 300px;
-			background: red;
-		}
-		#nav{
-			width: 100%;
-			height: 57px;
-		}
-		#content{
-			width: 50%;
-			height: 800px;
-		}
-	}
-	</style>
+<style>
+ul {
+    list-style-type: none;
+}
+
+ul li a {
+    color: green;
+    text-decoration: none;
+    padding: 3px; 
+    display: block;
+}
+
+@media screen and (max-width: 699px) and (min-width: 520px) {
+    ul li a {
+        padding-left: 30px;
+        background: url(email-icon.png) left center no-repeat;
+    }
+}
+
+@media screen and (max-width: 1000px) and (min-width: 700px) {
+    ul li a:before {
+        content: "Email: ";
+        font-style: italic;
+        color: #666666;
+    }
+}
+</style>
 </head>
 <body>
-	<div id="top">
-		
-	</div>
-	<div id="nav">
-		
-	</div>
-	<div id="content">
-		
-	</div>
-	<div id="bottom">
-		
-	</div>
+
+<h1>重置浏览器窗口，查看效果!</h1>
+
+<ul>
+  <li><a data-email="johndoe@example.com" href="mailto:johndoe@example.com">John Doe</a></li>
+  <li><a data-email="marymoe@example.com" href="mailto:marymoe@example.com">Mary Moe</a></li>
+  <li><a data-email="amandapanda@example.com" href="mailto:amandapanda@example.com">Amanda Panda</a></li>
+</ul>
+
 </body>
 </html>
