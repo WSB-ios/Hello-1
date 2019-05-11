@@ -8,8 +8,11 @@
 注意：搜索标签时前面后加空格 “ < p > 正确 ” “ <p> 错误 ”
 ```
 ## 标签查找
+ - [< dr >](#<p>-创建一段文本)
  - [< p >](#<p>-创建一段文本)
- 
+ - [< a >](#<p>-创建一段文本)
+ - [< p >](#<p>-创建一段文本)
+ - [< p >](#<p>-创建一段文本)
 ## HTML 标签
 
 ## < br > 换行
@@ -36,7 +39,7 @@
 ```Python
 王：管他什么。<p>标签就是创建一段文本。
 ```
-#### < a > - 超链接
+## < a > - 超链接
 
 < a href="域名">< /a >
  ```Python
@@ -44,7 +47,7 @@
 ```
  - href是指定链接的目标
  
-#### target - 打开方式
+## target - 打开方式
 
  - blank ：创建新窗口页
  
@@ -58,7 +61,7 @@
  <a href="https://wsb-android.github.io/Hello/n" target="_parent" title="转到WSB-Android主页">DIVCSS5</a>
 ```
 
-#### < h1 >...< h6 > - 标题
+## < h1 >...< h6 > - 标题
 
 ```Python
 <h1>这是标题 1</h1>
@@ -66,19 +69,19 @@
 <h3>这是标题 3</h3>
 ```
 
-#### < b > - 加粗
+## < b > - 加粗
 
-#### < strong > - 加粗
+## < strong > - 加粗
 
-#### < em > - 斜体
+## < em > - 斜体
 
-#### < i > - 斜体
+## < i > - 斜体
 
-#### < u > - 下划线
+## < u > - 下划线
 
-#### < s > - 删除线
+## < s > - 删除线
 
-#### < img > - 图片标签
+## < img > - 图片标签
 
  - src - 图片路径
  ```Python
@@ -86,13 +89,13 @@
 ```
  <img 导入图片路径="图片.png" 宽度="175" 高度="47"/>
 
-#### < sup > - 上标
+## < sup > - 上标
 菜的抠脚<sup>666666</sup>
 
-#### < sub > - 下标
+## < sub > - 下标
 菜的抠脚<sub>666666</sub>
 
-#### < hr > - 水平线
+## < hr > - 水平线
 <hr>抠脚？6666<hr>
 
 
@@ -101,7 +104,7 @@
 
 ## CSS 样式
  
-#### 外部样式导入
+## 外部样式导入
 CSS样式导入
 ```Python
  <link rel="stylesheet" type="text/css" href="mystyle.css>
@@ -115,32 +118,32 @@ JS样式导入
  <p style="color:sienna;margin-left:20px">这是一个段落。</p>
 ```
 
-#### width - 宽度
+## width - 宽度
  - width：100%；百分比计算宽度
  - width：100px；像素计算宽度
  - width：100em；长度单位
 
-#### height - 高度
+## height - 高度
  - height：100%；百分比计算高度
  - height：100px；像素计算高度
  - height：100em；对长度单位
 
-#### background-color - 背景颜色
+## background-color - 背景颜色
 
  - background-color：#000；
 
-#### background-image - 背景图片
+## background-image - 背景图片
 
  - background-image：url（图片地址）；
 
-#### background-repeat - 背景平铺方向
+## background-repeat - 背景平铺方向
 
  - background-repeat:
  - repeat-x；水平平铺 
  - repeat-y；垂直居中
  - no-repeat；不平铺
 
-#### background-position - 背景图像位置
+## background-position - 背景图像位置
 
  - top、bottom、left、right，center；可以使用长度值，如 100px 或 5em
  - background-position：
