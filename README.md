@@ -12,7 +12,7 @@
  - [< p >](#<p>-创建一段文本)
  - [< a >](#<a>-超链接)
  - [< target >](#<target>-打开方式)
- - [< h1 >](#< h1 >...< h6 >-标题)
+ - [< h1 >](#<h1>-标题)
 ## HTML 标签
 
 ## < br > 换行
@@ -61,7 +61,7 @@
  <a href="https://wsb-android.github.io/Hello/n" target="_parent" title="转到WSB-Android主页">DIVCSS5</a>
 ```
 
-## < h1 >...< h6 > 标题
+## < h1 > 标题
 
 ```Python
 <h1>这是标题 1</h1>
