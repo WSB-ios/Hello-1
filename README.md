@@ -1,10 +1,11 @@
-### 笔记
+# 笔记
 
 >作者：王
 
 ## CSS 样式
 
-width - 宽度
+
+ width - 宽度
  - width：100%；百分比计算宽度
  - width：100px；像素计算宽度
  - width：100em；对长度单位
@@ -14,6 +15,7 @@ height - 高度
  - height：100px；像素计算高度
  - height：100em；对长度单位
 
+*
 background - 背景
 
 background-color - 背景颜色
@@ -41,5 +43,6 @@ background-position - 背景图像位置
 </br> ...
  - 简单：body {background:#颜色 url('图片') 平铺 图像位置;} 
  - body {background:#ffffff url('img_tree.png') no-repeat right top;}
+ *
 
 margin：0 auto;   //水平居中
