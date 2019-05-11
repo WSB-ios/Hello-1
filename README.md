@@ -9,7 +9,15 @@
  - [< target >](#target-打开方式)
  - [< h1 >](#h1-标题)
  - [< b >](#b-加粗)
- - [< strong >](strong-加粗)
+ - [< strong >](#strong-加粗)
+ - [< em >](#em-斜体)
+ - [< i >](#i-斜体)
+ - [< u >](#u-下划线)
+ - [< s >](#s-删除线)
+ - [< img >](#img-图片图标)
+ - [< sup >](#sup-上标)
+ - [< sub >](#sub-下标)
+ - [< hr >](#hr-下划线)
 
 ```Python
 提示：Ctrl+F搜索   
