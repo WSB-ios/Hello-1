@@ -17,7 +17,7 @@
  - [< img >](#img-图片图标)
  - [< sup >](#sup-上标)
  - [< sub >](#sub-下标)
- - [< hr >](#hr-下划线)
+ - [< hr >](#hr-水平线)
 
 ```Python
 提示：Ctrl+F搜索   
