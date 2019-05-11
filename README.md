@@ -9,6 +9,7 @@
  - [< target >](#target-打开方式)
  - [< h1 >](#h1-标题)
  - [< b >](#b-加粗)
+ - [< strong >](strong-加粗)
 
 ```Python
 提示：Ctrl+F搜索   
