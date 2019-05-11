@@ -33,7 +33,8 @@ p标签的用法
 </body>
 </html>
 ```
-![](.//pycharm-import-settings.png)
+效果
+![](./image/QQ截图20190511142233.png)
 ```Python
 ```
  ## CSS 样式
