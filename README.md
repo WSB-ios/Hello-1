@@ -8,7 +8,7 @@ height   //高度
 方式：height：100%；
 
 *****************************
-background   //背景
+<h1>background</h1>   //背景
 
 background-color   //背景颜色
 方式：background-color：#000；
@@ -37,5 +37,3 @@ top、bottom、left、right，center；可以使用长度值，如 100px 或 5cm
 *****************************
 
 margin：0 auto;   //水平居中
-
-margin：
