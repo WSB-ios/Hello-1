@@ -3,7 +3,40 @@
  >作者：王
  
  ## HTML 标签
+ 
+ p标签 创建一个文本段落
+ ```Python
+ <p>这是一个段落</p>
+```
+p标签的用法
+ ```Python
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>W3Cschool教程(w3cschool.cn)</title>
+</head>
 
+<body>
+
+<h1>春晓</h1>
+
+<p>
+   春眠不觉晓， <br/>
+   处处闻啼鸟。<br/>
+   夜来风雨声，<br/>
+   花落知多少。<br/>
+</p>
+
+<p>注意，浏览器忽略了源代码中的排版（省略了多余的空格和换行）。</p>
+
+</body>
+
+</html>
+```
+![]()
+```Python
+```
  ## CSS 样式
  
 #### 外部样式导入
