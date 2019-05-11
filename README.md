@@ -17,6 +17,7 @@ background-image   //背景图片
 方式：background-image：url（图片地址）；
 
 background-repeat   //背景平铺方向
+</dr>
 方式：background-repeat:
           repeat-x；水平平铺 
           repeat-y； 垂直居中
