@@ -30,8 +30,9 @@
 
 < a href="网站地址">< /a >
  ```Python
- <a href="http://www.w3cschool.cn"></a>
+ <a href="http://https://wsb-android.github.io/Hello/n"></a>
 ```
+ - href是指定链接的目标
 
 ## CSS 样式
  
