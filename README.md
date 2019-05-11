@@ -6,7 +6,10 @@
  
 外部样式导入
 ```Python
+css样式导入
  <link rel="stylesheet" type="text/css" href="mystyle.css>
+js样式导入
+ <link rel="stylesheet" type='text/javascript' href="js/new_file.js" />
 ```
 内联样式
 ```Python
