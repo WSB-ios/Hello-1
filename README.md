@@ -10,15 +10,6 @@
 ```
 p标签的用法 br是换行
  ```Python
-<html>
-<html>
-<head>
-<meta charset="utf-8">
-<title>W3Cschool教程(w3cschool.cn)</title>
-</head>
-
-<body>
-
 <h1>春晓</h1>
 
 <p>
@@ -29,9 +20,6 @@ p标签的用法 br是换行
 </p>
 
 <p>注意，浏览器忽略了源代码中的排版（省略了多余的空格和换行）。</p>
-
-</body>
-</html>
 ```
 #### 效果
 
