@@ -31,10 +31,9 @@ p标签的用法
 <p>注意，浏览器忽略了源代码中的排版（省略了多余的空格和换行）。</p>
 
 </body>
-
 </html>
 ```
-![]()
+![](.//pycharm-import-settings.png)
 ```Python
 ```
  ## CSS 样式
