@@ -3,7 +3,15 @@
  >作者：王
 
  ## CSS 样式
-
+ 
+外部样式导入
+```Python
+ <link rel="stylesheet" type="text/css" href="mystyle.css>
+```
+内联样式
+```Python
+ <p style="color:sienna;margin-left:20px">这是一个段落。</p>
+```
 
 #### width - 宽度
  - width：100%；百分比计算宽度
@@ -28,7 +36,7 @@
  - no-repeat；不平铺
 
 #### background-position - 背景图像位置
- - top、bottom、left、right，center；可以使用长度值，如 100px 或 5cm
+ - top、bottom、left、right，center；可以使用长度值，如 100px 或 5em
  - background-position：
  - top；上面
  - bottom；下面
@@ -44,14 +52,5 @@
 ```
 
 #### font-family - 字体
-
-外部样式导入
-```Python
- <link rel="stylesheet" type="text/css" href="mystyle.css>
-```
-内联样式
-```Python
- <p style="color:sienna;margin-left:20px">这是一个段落。</p>
-```
 
 #### margin：0 auto;   //水平居中
