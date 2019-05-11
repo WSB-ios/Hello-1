@@ -28,11 +28,25 @@
 ```
 ### < a > - 超链接
 
-< a href="网站地址">< /a >
+< a href="域名">< /a >
  ```Python
  <a href="http://https://wsb-android.github.io/Hello/n"></a>
 ```
  - href是指定链接的目标
+ 
+#### target - 打开方式
+
+ - blank ：创建新窗口页
+ 
+ ```Python
+ <a href="https://wsb-android.github.io/Hello/n" target="_blank" title="转到WSB-Android主页">DIVCSS5</a>
+```
+
+ - parent：父级打开网页
+ 
+```Python
+ <a href="https://wsb-android.github.io/Hello/n" target="_parent" title="转到WSB-Android主页">DIVCSS5</a>
+```
 
 ## CSS 样式
  
