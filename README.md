@@ -1,10 +1,18 @@
+### 笔记
+
+>作者：王
+
 ## CSS 样式
 
-width-宽度
- - width：100%；
+width - 宽度
+ - width：100%；百分比计算宽度
+ - width：100px；像素计算宽度
+ - width：100em；对长度单位
 
 height - 高度
- - height：100%；
+ - height：100%；百分比计算高度
+ - height：100px；像素计算高度
+ - height：100em；对长度单位
 
 background - 背景
 
@@ -17,7 +25,7 @@ background-image - 背景图片
 background-repeat - 背景平铺方向
  - background-repeat:
  - repeat-x；水平平铺 
- - repeat-y； 垂直居中
+ - repeat-y；垂直居中
  - no-repeat；不平铺
 
 background-position - 背景图像位置
