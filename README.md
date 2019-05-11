@@ -15,7 +15,6 @@ height - 高度
  - height：100px；像素计算高度
  - height：100em；对长度单位
 
-*
 background - 背景
 
 background-color - 背景颜色
@@ -43,6 +42,12 @@ background-position - 背景图像位置
 </br> ...
  - 简单：body {background:#颜色 url('图片') 平铺 图像位置;} 
  - body {background:#ffffff url('img_tree.png') no-repeat right top;}
- *
+
+font-family - 字体
+
+外部样式导入
+ - “link rel="stylesheet" type="text/css" href="mystyle.css"”
+内联样式
+ - <p style="color:sienna;margin-left:20px">这是一个段落。</p>
 
 margin：0 auto;   //水平居中
