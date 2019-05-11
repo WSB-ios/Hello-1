@@ -1,8 +1,8 @@
-# 笔记
+ # 笔记
 
->作者：王
+ >作者：王
 
-## CSS 样式
+ ## CSS 样式
 
 
  width - 宽度
@@ -41,13 +41,19 @@ background-position - 背景图像位置
  - left bottom；左下
 </br> ...
  - 简单：body {background:#颜色 url('图片') 平铺 图像位置;} 
- - body {background:#ffffff url('img_tree.png') no-repeat right top;}
+```Python
+body {background:#ffffff url('img_tree.png') no-repeat right top;}
+```
 
 font-family - 字体
 
 外部样式导入
- - “link rel="stylesheet" type="text/css" href="mystyle.css"”
+```Python
+ <link rel="stylesheet" type="text/css" href="mystyle.css>
+```
 内联样式
- - <p style="color:sienna;margin-left:20px">这是一个段落。</p>
+```Python
+ <p style="color:sienna;margin-left:20px">这是一个段落。</p>
+```
 
 margin：0 auto;   //水平居中
