@@ -8,7 +8,7 @@ height   //高度
 方式：height：100%；
 
 *****************************
-<h1>background</h1>   //背景
+<h1>background   //背景</h1>
 
 background-color   //背景颜色
 方式：background-color：#000；
