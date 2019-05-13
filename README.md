@@ -56,6 +56,12 @@
 ```
  - href是指定链接的目标
  
+ 触发：
+ - a:active 是超级链接的初始状态
+ - a:hover 是把鼠标放上去时的状况
+ - a:link 是鼠标点击时
+ - a:visited 是访问过后的情况
+ 
 ## target 打开方式
 
  - blank ：创建新窗口页
@@ -348,15 +354,43 @@ border-bottom 设置下边框
  - margin-bottom 对象下边外延边距 （margin-bottom:5px; 下边外延距离5px）
  
  缩写：margin:5px 0 6px 4px  " margin:上 左 下 右 "
+ 
+## margin：0 auto; 水平居中
 
 ## padding 内边距
  - padding-left 左边距
  - padding-right 右边距
  - padding-top 上边距
  - padding-bottom 下边距
+ 
+## color 颜色
+
+## font-size 字体大小
+ - font-size:12px; 设置对象具体字体大小为12px
+ - font-size:xx-small; 设置文字大小为最小
+ - font-size:small; 设置文字字体大小为小
+ - font-size:x-large; 设置对象字体大小为较大
+ - font-size:larger; 设置对象字体大小为大
+ - font-size:smaller; 相对于父容器中字体尺寸进行相对减小
+ - font-size:50%; 相对于父容器中字体尺寸进行相应调整为50%大小
+ - font-size:150%; 相对于父容器中字体尺寸进行相应调整为150%大小
 
 ## font-family 字体
+ - HTML里字体设置 <font face="黑体">我是黑体字</font>
+ - CSS里字体设置  .div{ font-family:"黑体";}
+## display 显示隐藏
 
-## margin：0 auto; 水平居中
+## position 定位
+ - position：static 静态定位
+ - position:relative 相对定位
+ - position:absolute 绝对定位
+ - position:fixed 相对浏览器定位
+ 
+  | 定位模式         | 是否脱标占有位置          | 是否可以使用边偏移  | 移动位置的基准          |
+  | --------------- | ------------------------ | ----------------- | ------------------------ |
+  | 静态定位static	  | 不脱标，正常模式，占有位置 |  不可以            | 	正常模式                |
+  | 相对定位relative	| 不脱标，占有位置	         |   可以            	|   相对自身的位置           |
+  | 绝对定位absolute	| 脱标，不占有位置         	|   可以           	 |  相对于定义父级元素移动位置 |
+  | 固定定位fixed	   | 脱标，不占有位置         	|   可以	            |  相对于浏览器移动位置       |
 
 ## JavaScript 
