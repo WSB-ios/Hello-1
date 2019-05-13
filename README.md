@@ -317,16 +317,16 @@ border-bottom 设置下边框
  - border边框样式：border-style:solid
 
  - 边框样式值如下：
-none : 　无边框。与任何指定的border-width值无关
-hidden : 　隐藏边框。IE不支持
-dotted : 　在MAC平台上IE4+与WINDOWS和UNIX平台上IE5.5+为点线。否则为实线（常用）
-dashed : 　在MAC平台上IE4+与WINDOWS和UNIX平台上IE5.5+为虚线。否则为实线（常用）
-solid : 　实线边框（常用）
-double : 　双线边框。两条单线与其间隔的和等于指定的border-width值
-groove : 　根据border-color的值画3D凹槽
-ridge : 　根据border-color的值画菱形边框
-inset : 　根据border-color的值画3D凹边
-outset : 　根据border-color的值画3D凸边
+ - none : 　无边框。与任何指定的border-width值无关
+ - hidden : 　隐藏边框。IE不支持
+ - dotted : 　在MAC平台上IE4+与WINDOWS和UNIX平台上IE5.5+为点线。否则为实线（常用）
+ - dashed : 　在MAC平台上IE4+与WINDOWS和UNIX平台上IE5.5+为虚线。否则为实线（常用）
+ - solid : 　实线边框（常用）
+ - double : 　双线边框。两条单线与其间隔的和等于指定的border-width值
+ - groove : 　根据border-color的值画3D凹槽
+ - ridge : 　根据border-color的值画菱形边框
+ - inset : 　根据border-color的值画3D凹边
+ - outset : 　根据border-color的值画3D凸边
 
 ## float 浮动
  - float:none 不使用浮动
