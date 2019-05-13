@@ -8,7 +8,7 @@
 
 ## JavaScript 
  
-## 标签查找
+### 标签查找
  - [< br > 换行](#br-换行)
  - [< p > 创建文本](#p-创建一段文本)
  - [< a > 超链接](#a-超链接)
@@ -293,6 +293,54 @@ JS样式导入
  body {background:#ffffff url('img_tree.png') no-repeat right top;}
 ```
 body {background:#白色 url('图片') 不平铺 向右上;}
+
+## border 边框
+
+ - 四个边框
+border-left 设置左边框
+border-right 设置右边框
+border-top 设置上边框
+border-bottom 设置下边框
+
+ - 四边相同边框border简写
+#divcss5{border:1px solid #00F}
+设置了divcss5对象盒子1px像素蓝色实线边框
+
+ - 边框三个样式
+通常我们可以对边框设置宽度（厚度）、边框样式、边框颜色这三个属性与参数。
+
+ - 边框颜色：border-color:#000
+
+ - 边框厚度（宽度）：border-width:1px
+使用数字+单位设置边框厚度宽度，如1px(边框厚度宽度为1像素)，边框必须为正数字，大于0的数值。否则设置边框border样式无效。
+
+ - border边框样式：border-style:solid
+
+ - 边框样式值如下：
+none : 　无边框。与任何指定的border-width值无关
+hidden : 　隐藏边框。IE不支持
+dotted : 　在MAC平台上IE4+与WINDOWS和UNIX平台上IE5.5+为点线。否则为实线（常用）
+dashed : 　在MAC平台上IE4+与WINDOWS和UNIX平台上IE5.5+为虚线。否则为实线（常用）
+solid : 　实线边框（常用）
+double : 　双线边框。两条单线与其间隔的和等于指定的border-width值
+groove : 　根据border-color的值画3D凹槽
+ridge : 　根据border-color的值画菱形边框
+inset : 　根据border-color的值画3D凹边
+outset : 　根据border-color的值画3D凸边
+
+## float 浮动
+ - float:none 不使用浮动
+ - float:left 靠左浮动
+ - float:right 靠右浮动
+
+## clear 清除浮动
+ - clear:left 左不浮动
+ - clear:right 右不浮动
+ - clear:both 都不浮动
+ - clear:none 不浮动
+ - clear:inherit 继承
+
+注释：继承：是指定继承父元素的相应属
 
 ## font-family 字体
 
