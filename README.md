@@ -27,7 +27,7 @@
  - [< table tr td th > 表格](#table-tr-td-th-表格)
 
 
-## [CSS 样式](#css-样式)
+## [CSS 样式](#css)
 
 ## JavaScript 
  
@@ -243,7 +243,7 @@
 
 
 
-## CSS 样式
+## CSS
 
 ## 外部样式导入
 CSS样式导入
