@@ -380,22 +380,35 @@ border-bottom 设置下边框
 ## position 定位
  - position：static 静态定位
  - position:relative 相对定位
- - position:absolute 绝对定位
- - position:fixed 相对浏览器定位
+ - position:absolute 绝对定位 
+ - position:fixed 固定定位 相对浏览器定位
  
   | 定位模式         | 是否脱标占有位置          | 是否可以使用边偏移  | 移动位置的基准          |
   | --------------- | ------------------------ | ----------------- | ------------------------ |
   | 静态定位static	  | 不脱标，正常模式，占有位置 |  不可以            | 	正常模式                |
-  | 相对定位relative	| 不脱标，占有位置	         |   可以            	|   相对自身的位置           |
+  | 相对定位relative	| 不脱标，占有位置	         |   可以            	|  相对自身的位置           |
   | 绝对定位absolute	| 脱标，不占有位置         	|   可以           	 |  相对于定义父级元素移动位置 |
   | 固定定位fixed	   | 脱标，不占有位置         	|   可以	            |  相对于浏览器移动位置       |
+
+其他的都比较简单先看绝对定位吧：
+ <br/>1.不要把他看得太难，其实很简单OJBK?
+ <br/>2.随机定义一个相对定位，然后在定义一个你要移动的绝对定位，这样就OK了
+ <br/>3.如果你定义多个定位的话你就要考虑堆叠顺序，z-index属性的是指定了一个元素的堆叠顺序（哪个元素应该放在前面，或后面）
+一个元素可以有正数或负数的堆叠顺序：
 
 ## text-align 文本对齐
  - left : 左对齐
  - right : 右对齐
  - center : 居中
 
-## 
+## cursor鼠标手势与光标
+ - div{ cursor:default }默认正常鼠标指针
+ - div{ cursor:hand }div{ cursor:text } 文本选择效果
+ - div{ cursor:move } 移动选择效果
+ - div{ cursor:pointer } 手指形状 链接选择效果
+ - div{ cursor:url(url图片地址) }设置对象为图片
+
+![](./image/3.png)
 
 ## JavaScript 
 
