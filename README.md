@@ -342,6 +342,16 @@ outset : 　根据border-color的值画3D凸边
 
 注释：继承：是指定继承父元素的相应属
 
+## margin 外边距
+ - margin-left 对象左边外延边距 （margin-left:5px; 左边外延距离5px）
+ - margin-right 对象右边外延边距 （margin-right:5px; 右边外延距离5px）
+ - margin-top 对象上边外延边距 （margin-top:5px; 上边外延距离5px）
+ - margin-bottom 对象下边外延边距 （margin-bottom:5px; 下边外延距离5px）
+ 
+ 缩写：margin:5px 0 6px 4px  " margin:上 左 下 右 "
+
+## padding 内边距
+
 ## font-family 字体
 
 ## margin：0 auto; 水平居中
