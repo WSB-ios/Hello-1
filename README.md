@@ -1,4 +1,6 @@
- # 笔记
+
+
+# 笔记
 
  >作者：王
  
@@ -25,11 +27,11 @@
  - [< table tr td th > 表格](#table-tr-td-th-表格)
 
 
-## CSS 样式
+## [CSS 样式](#css-样式)
 
 ## JavaScript 
  
-## [br 换行](#标签查找)
+## br 换行
 
 ## p 创建一段文本
 
