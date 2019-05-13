@@ -148,7 +148,24 @@
 
 ## form 表单
 
+## input 按钮
 
+```Python
+<form action="" method="get"> 
+<label>type="text" 输入框</label> 
+<input name="" type="text" size="22" /><br /> 
+<label>type="checkbox" 多选复选框</label> 
+<input name="" type="checkbox" value="" /><br /> 
+<label>type="radio" 单选框</label> 
+<input name="" type="radio" value="" /><br /> 
+<label>type="submit" 按钮</label> 
+<input name="" type="submit" value="提交" /> 
+</form> 
+```
+
+![](./image/1.png)
+
+## checkbox 多选框
 
 
 
