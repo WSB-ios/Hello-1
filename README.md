@@ -230,7 +230,7 @@
     </tr> 
 </table> 
 
-### 注释：表格结构中td和th使用，没有区别均可使用。 “ th、td是行 ” “ tr是列 ” 
+#### 注释：表格结构中td和th使用，没有区别均可使用。 “ th、td是行 ” “ tr是列 ” 
 
 
 
@@ -243,10 +243,7 @@ CSS样式导入
 ```Python
  <link rel="stylesheet" type="text/css" href="mystyle.css>
 ```
-JS样式导入
-```Python
- <link rel="stylesheet" type='text/javascript' href="js/new_file.js" />
-```
+
 内联样式
 ```Python
  <p style="color:sienna;margin-left:20px">这是一个段落。</p>
@@ -393,4 +390,16 @@ border-bottom 设置下边框
   | 绝对定位absolute	| 脱标，不占有位置         	|   可以           	 |  相对于定义父级元素移动位置 |
   | 固定定位fixed	   | 脱标，不占有位置         	|   可以	            |  相对于浏览器移动位置       |
 
+## text-align 文本对齐
+ - left : 左对齐
+ - right : 右对齐
+ - center : 居中
+
+## 
+
 ## JavaScript 
+
+JS样式导入
+```Python
+ <link rel="stylesheet" type='text/javascript' href="js/new_file.js" />
+```
