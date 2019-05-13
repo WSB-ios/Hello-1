@@ -169,8 +169,6 @@
 
 ![](./image/1.png)
 
-## checkbox 多选框
-
 ## iframe 框架
 
 ```Python
