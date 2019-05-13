@@ -167,6 +167,66 @@
 
 ## checkbox 多选框
 
+## iframe 框架
+
+```Python
+ <iframe src="http://www.baidu.com/" width="400" height="200" scrolling="yes" />
+```
+
+<iframe 导入="域名" 宽度="400" 高度="200" 滚动="是" />
+
+```Python
+1、常常用于一个网页中局域显示另外网页
+
+2、是否显示滚动条，可以在标签内设置scrolling的不同值属性定义。
+```
+
+## table tr td th 表格
+
+```Python
+
+//<table 宽度="300" 边界="1" 间距="0">
+
+<table width="300" border="1" cellspacing="0"> 
+    <tr> 
+        <th>班级</th> 
+        <th>日期</th> 
+        <th>标题</th> 
+    </tr> 
+    <tr> 
+        <td>一班</td> 
+        <td>2012-5-10</td> 
+        <td>标题1</td> 
+    </tr> 
+    <tr> 
+        <td>二班</td> 
+        <td>2012-5-20</td> 
+        <td>标题2</td> 
+    </tr> 
+</table> 
+```
+<table width="300px" border="1" cellspacing="0"> 
+    <tr> 
+        <th>班级</th> 
+        <th>日期</th> 
+        <th>标题</th> 
+    </tr> 
+    <tr> 
+        <td>一班</td> 
+        <td>2012-5-10</td> 
+        <td>标题1</td> 
+    </tr> 
+    <tr> 
+        <td>二班</td> 
+        <td>2012-5-20</td> 
+        <td>标题2</td> 
+    </tr> 
+</table> 
+
+
+
+
+
 
 
 ## CSS 样式
