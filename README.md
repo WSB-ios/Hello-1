@@ -350,6 +350,10 @@ border-bottom 设置下边框
  缩写：margin:5px 0 6px 4px  " margin:上 左 下 右 "
 
 ## padding 内边距
+ - padding-left 左边距
+ - padding-right 右边距
+ - padding-top 上边距
+ - padding-bottom 下边距
 
 ## font-family 字体
 
