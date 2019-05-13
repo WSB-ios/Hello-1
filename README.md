@@ -202,12 +202,12 @@
     </tr> 
     <tr> 
         <td>一班</td> 
-        <td>2012-5-10</td> 
+        <td>2019-5-10</td> 
         <td>标题1</td> 
     </tr> 
     <tr> 
         <td>二班</td> 
-        <td>2012-5-20</td> 
+        <td>2019-5-20</td> 
         <td>标题2</td> 
     </tr> 
 </table> 
@@ -409,6 +409,10 @@ border-bottom 设置下边框
  - div{ cursor:url(url图片地址) }设置对象为图片
 
 ![](./image/3.png)
+
+## letter-spacing 字间距
+
+## line-height 行高
 
 ## JavaScript 
 
