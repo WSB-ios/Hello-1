@@ -425,6 +425,8 @@ border-bottom 设置下边框
 
 ## line-height 行高
 
+## display: inline-block; 转化为块元素
+
 ## JavaScript 
 
 JS样式导入
