@@ -433,7 +433,7 @@ JS样式导入
 ```Python
  <link rel="stylesheet" type='text/javascript' href="js/new_file.js" />
 ```
-| 关键字 |
+| 关键字    |          |           |               |
 | -------- | -------- | ---------- | ------------ |
 | abstract | else     |	instanceof | super        |
 | boolean  | enum     | int        | switch       |
