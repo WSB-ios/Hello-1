@@ -1,4 +1,6 @@
-
+<h2 align="center">
+    <a href="http://www.w3school.com.cn/index.html">W3C标准和教程</a>
+</h2>
 
 # 笔记
 
@@ -22,7 +24,7 @@
  - [< sub > 下标](#sub-下标)
  - [< hr > 水平线](#hr-水平线)
  - [< form > 表单](#form-表单)
- - [< input > 按钮](#input-按钮)
+ - [< input > 提交按钮](#input-提交按钮)
  - [< iframe > 框架](#iframe-框架)
  - [< table tr td th > 表格](#table-tr-td-th-表格)
 
@@ -164,7 +166,7 @@
 
 ## form 表单
 
-## input 按钮
+## input 提交按钮
 
 ```Python
 <form action="" method="get"> 
@@ -238,6 +240,8 @@
 </table> 
 
 #### 注释：表格结构中td和th使用，没有区别均可使用。 “ th、td是行 ” “ tr是列 ” 
+
+## button 按键
 
 
 
