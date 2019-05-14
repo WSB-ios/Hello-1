@@ -433,6 +433,24 @@ JS样式导入
 ```Python
  <link rel="stylesheet" type='text/javascript' href="js/new_file.js" />
 ```
+| 关键字 |
+| -------- | -------- | ---------- | ------------ |
+| abstract | else     |	instanceof | super        |
+| boolean  | enum     | int        | switch       |
+| break    | export   | interface  | synchronized |
+| byte     | extends  | let        | this         |
+| case     | false    | long       | throw        |
+| catch    | final    | native     | throws       |
+| char     | finally  | new        | transient    |
+| class    | float    | null       | true         |
+| const    | for      | package    | try          |
+| continue | function | private    | typeof       |
+| debugger | goto     | protected  | var          |
+| default  | if        | public    | void         |
+| delete   | implements | return   | olatile      |
+| do       | import     | short    | while        |
+| double   | in         | static   | with         |
+
 
 ## 输出
 
