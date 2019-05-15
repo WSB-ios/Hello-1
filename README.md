@@ -429,6 +429,8 @@ border-bottom 设置下边框
 
 ## border-radius:9px; 圆角
 
+## border:none; 去边框
+
 ## JavaScript 
 
 JS样式导入
