@@ -427,6 +427,8 @@ border-bottom 设置下边框
 
 ## display: inline-block; 转化为块元素
 
+## border-radius:9px; 圆角
+
 ## JavaScript 
 
 JS样式导入
