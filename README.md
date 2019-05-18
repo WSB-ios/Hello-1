@@ -457,7 +457,18 @@ JS样式导入
  - 使用 innerHTML 写入到 HTML 元素。
  - 使用 console.log() 写入到浏览器的控制台。
 
-
+## if else 循环
+ - 当调节为true（真）时执行if，当调节为false（假）时执行else。
+ ```Python
+ if (条件)        
+  {       
+  当条件为 true 时执行的代码      
+  }        
+else        
+  {        
+  当条件不为 true 时执行的代码        
+  }
+```
 
 
 
